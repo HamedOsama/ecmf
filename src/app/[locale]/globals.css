@@ -6,7 +6,7 @@
 }
 
 .container {
-  @apply w-10/12 sm:w-9/12 mx-auto max-w-7xl
+  @apply w-10/12 sm:w-10/12 mx-auto max-w-7xl
 }
 
 @media (prefers-color-scheme: dark) {

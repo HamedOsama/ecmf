@@ -2,7 +2,7 @@ import { FC } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Search } from 'lucide-react';
+import { Search, Menu } from 'lucide-react';
 
 
 import logo from '@/images/logo.png';
@@ -38,7 +38,7 @@ const Navbar: FC<NavbarProps> = ({ }) => {
       navLinks.map(({ href, label }) => (
         <p
           key={`${href}${label}`}
-          className='text-sm font-medium text-gray-500 hover:text-gray-900'
+          className='hidden md:block text-sm font-medium text-gray-500 hover:text-gray-900 cursor-pointer'
         >
           <Link href={href}>
             <span>{getLocale(label)}</span>
@@ -46,7 +46,8 @@ const Navbar: FC<NavbarProps> = ({ }) => {
         </p>
       ))
     }
-    <Search className='w-6 h-6 text-gray-500 hover:text-gray-900' />
+    <Search className='hidden md:block w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer' />
+    <Menu className=' md:hidden w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer' />
   </header>
 }
 

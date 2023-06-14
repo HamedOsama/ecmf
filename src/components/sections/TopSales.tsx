@@ -10,13 +10,17 @@ import ProductCard from '../ProductCard';
 
 import productImage from '@/images/product.png'
 interface TopSalesProps {
-
+  sectionTitle : string
+  productTitle: string
+  productDescription: string
+  productPrice: string
+  productCurrency: string
 }
 
-const TopSales: FC<TopSalesProps> = ({ }) => {
+const TopSales: FC<TopSalesProps> = ({sectionTitle, productTitle, productDescription, productPrice, productCurrency }) => {
   return <section className='py-8'>
     <Title variant="default" className='container' >
-      Top Sales Products
+      {sectionTitle}
     </Title>
     <Swiper
       scrollbar={{
@@ -28,12 +32,12 @@ const TopSales: FC<TopSalesProps> = ({ }) => {
         // when window width is >= 640px
         0: {
           slidesPerView: 2.75,
-          spaceBetween : 16,
+          spaceBetween: 16,
         },
         // when window width is >= 768px
         768: {
           slidesPerView: 3.75,
-          spaceBetween : 32,
+          spaceBetween: 32,
         },
       }}
       // centeredSlides={true}
@@ -44,11 +48,11 @@ const TopSales: FC<TopSalesProps> = ({ }) => {
       {Array.of(1, 2, 3, 4, 5, 6).map((item, index) => {
         return <SwiperSlide key={index}>
           <ProductCard
-            title='Title'
-            description='Product Description'
+            title={productTitle}
+            description={productDescription}
             image={productImage}
-            price={100}
-            currency='EGP'
+            price={productPrice}
+            currency={productCurrency}
           />
         </SwiperSlide>
       })}

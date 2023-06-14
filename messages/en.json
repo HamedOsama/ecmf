@@ -1,4 +1,7 @@
 {
+  "global" : {
+    "currency" : "EGP"
+  },
   "navbar" : {
     "title" : "ECMF",
     "home" : "Home",
@@ -17,5 +20,11 @@
     "slogan1" : "Best Prices",
     "slogan2" : "best materials",
     "slogan3" : "the best in the industry"
+  },
+  "topSales":{
+    "title" : "Top Sales Products",
+    "productTitle" : "Pipes Metal ECMF",
+    "productDescription" : "Premium Steal from ECMF",
+    "productPrice" : "2000"
   }
 }

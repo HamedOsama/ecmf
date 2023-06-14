@@ -6,7 +6,7 @@ interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
   title: string
   description: string
   image: any
-  price: number
+  price: string
   currency: string
 }
 

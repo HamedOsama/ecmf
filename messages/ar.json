@@ -1,4 +1,7 @@
 {
+  "global" : {
+    "currency" : "جنيه"
+  },
   "navbar" : {
     "title" : "ECMF",
     "home" : "الرئيسية",
@@ -17,5 +20,11 @@
     "slogan1" : "أفضل الأسعار",
     "slogan2" : "أفضل الخامات",
     "slogan3" : "الأفضل في المجال"
+  },
+  "topSales":{
+    "title" : "أكثر المنتجات طلبا",
+    "productTitle" : "مواسير ممتازة",
+    "productDescription" : "مواسير مميزة من انتاج ECMF",
+    "productPrice" : "2000"
   }
 }

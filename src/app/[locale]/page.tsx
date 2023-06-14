@@ -17,6 +17,8 @@ import "swiper/css/scrollbar";
 export default function Home() {
   const locale = useLocale();
   const t = useTranslations('home');
+  const topSalesProducts = useTranslations('topSales');
+  const global = useTranslations('global');
 
   return (
     <main >
@@ -71,7 +73,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <TopSales />
+      <TopSales
+        sectionTitle={topSalesProducts('title')}
+        productCurrency={global('currency')}
+        productDescription={topSalesProducts('productDescription')}
+        productPrice={topSalesProducts('productPrice')}
+        productTitle={topSalesProducts('productTitle')}
+      />
     </main>
   )
 }

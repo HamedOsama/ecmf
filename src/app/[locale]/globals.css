@@ -4,16 +4,30 @@
 
 @layer components {
   .container {
-    @apply w-10/12 sm:w-10/12 mx-auto max-w-7xl
+    @apply w-10/12 sm:w-10/12 max-w-7xl mx-auto
   }
 }
+
+
 
 .customText {
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: transparent;
 }
+
 :root {}
 
 @media (prefers-color-scheme: dark) {}
 
 body {}
+
+
+/* swiper overrides */
+
+.swiper-scrollbar-horizontal {
+  background: #C3EBFF !important;
+}
+
+.swiper-scrollbar-drag {
+  background: #1F96D3 !important;
+}

@@ -2,15 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@layer components {
+  .container {
+    @apply w-10/12 sm:w-10/12 mx-auto max-w-7xl
+  }
 }
 
-.container {
-  @apply w-10/12 sm:w-10/12 mx-auto max-w-7xl
+.customText {
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: transparent;
 }
+:root {}
 
-@media (prefers-color-scheme: dark) {
-}
+@media (prefers-color-scheme: dark) {}
 
-body {
-}
+body {}

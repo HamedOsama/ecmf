@@ -37,7 +37,7 @@ const MobileNavbar = ({ navLinks, locale }: IMobileNavbarProps) => {
         aria-label="Toggle Menu"
         onClick={onToggleNav}
       >
-        <Menu className='block md:hidden text-text-gray-500 hover:text-gray-900 cursor-pointer' size={24} />
+        <Menu className='block md:hidden text-white hover:text-gray-400 cursor-pointer' size={24} />
       </button>
       <div
         className={cn('fixed top-0 z-10 h-full w-3/4 transform bg-black/90 opacity-95 duration-300 ease-in-out',

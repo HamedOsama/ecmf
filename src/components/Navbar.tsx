@@ -24,7 +24,7 @@ const Navbar: FC<NavbarProps> = ({ }) => {
     label: getLocale(label)
   }))
 
-  return <header className='container my-8 mx-auto flex items-center justify-between sm:px-4'>
+  return <header className='container py-8 mx-auto flex items-center justify-between'>
     <Link href='/'>
       <Image
         src={logo}
@@ -38,7 +38,7 @@ const Navbar: FC<NavbarProps> = ({ }) => {
       navLinks.map(({ href, label }) => (
         <p
           key={`${href}${label}`}
-          className='hidden md:block text-sm font-medium text-gray-500 hover:text-gray-900 cursor-pointer'
+          className='hidden md:block text-sm font-medium text-white hover:text-gray-400 duration-200 cursor-pointer'
         >
           <Link href={href}>
             <span>{getLocale(label)}</span>
@@ -46,7 +46,7 @@ const Navbar: FC<NavbarProps> = ({ }) => {
         </p>
       ))
     }
-    <Search className='hidden md:block w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer' />
+    <Search className='hidden md:block w-6 h-6 text-white hover:text-gray-400 duration-200 cursor-pointer' />
     <MobileNavbar navLinks={localeNavLinks} locale={locale} />
   </header>
 }

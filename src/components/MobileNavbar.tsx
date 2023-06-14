@@ -78,6 +78,11 @@ const MobileNavbar = ({ navLinks, locale }: IMobileNavbarProps) => {
               </Link>
             </div>
           ))}
+          <div className="w-full px-8 py-4 border border-white/30 bg-transparent hover:bg-[#2D2D2D] duration-300 cursor-pointer">
+            <span className='inline-block text-lg font-bold tracking-widest text-white w-full text-center'>
+              {locale === 'ar' ? 'بحث' : 'Search'}
+            </span>
+          </div>
         </nav>
       </div>
     </div >

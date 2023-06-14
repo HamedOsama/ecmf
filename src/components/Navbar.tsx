@@ -1,29 +1,29 @@
 import { FC } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
-import { Search, Menu } from 'lucide-react';
+import { useLocale, useTranslations } from 'next-intl';
+import { Search } from 'lucide-react';
 
 
 import logo from '@/images/logo.png';
+import { navLinks } from '@/utils/nav-links';
+import MobileNavbar from './MobileNavbar';
 
 interface NavbarProps {
 
 }
 
 const Navbar: FC<NavbarProps> = ({ }) => {
-  const t = useTranslations('navbar')
+  const t = useTranslations('navbar');
+  const locale = useLocale();
+
   const getLocale = (el: string) => t(el)
 
-  const navLinks = [
-    { href: '/', label: 'home' },
-    { href: '/about', label: 'about' },
-    { href: '/gallery', label: 'gallery' },
-    { href: '/contact-us', label: 'contactUs' },
-    { href: '/products', label: 'products' },
-    { href: '/services', label: 'services' },
-    { href: '/terms-of-sale', label: 'termsOfSale' }
-  ]
+  const localeNavLinks = navLinks.map(({ href, label }) => ({
+    href: href,
+    label: getLocale(label)
+  }))
+
   return <header className='container my-8 mx-auto flex items-center justify-between sm:px-4'>
     <Link href='/'>
       <Image
@@ -47,7 +47,7 @@ const Navbar: FC<NavbarProps> = ({ }) => {
       ))
     }
     <Search className='hidden md:block w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer' />
-    <Menu className=' md:hidden w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer' />
+    <MobileNavbar navLinks={localeNavLinks} locale={locale} />
   </header>
 }
 

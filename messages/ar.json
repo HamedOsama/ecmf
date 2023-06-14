@@ -1,35 +1,12 @@
 {
   "navbar" : {
     "title" : "ECMF",
-    "links" : [
-      {
-        "title" : "الرئيسية",
-        "link" : "/"
-      },
-      {
-        "title" : "عنا",
-        "href" : "/about"
-      },
-      {
-        "title" : "المعرض",
-        "href" : "/gallery"
-      },
-      {
-        "title" : "تواصل معنا",
-        "href" : "/contact-us"
-      },
-      {
-        "title" : "المنتجات",
-        "href" : "/products"
-      },
-      {
-        "title" : "الخطوط",
-        "href" : "/services"
-      },
-      {
-        "title" : "شروط البيع",
-        "href" : "/terms-of-sale"
-      }
-    ]
+    "home" : "الرئيسية",
+    "about" : "من نحن",
+    "gallery" : "معرض الصور",
+    "contactUs" : "تواصل معنا",
+    "products" : "منتجاتنا",
+    "services" : "خدماتنا",
+    "termsOfSale" : "شروط البيع"
   }
 }

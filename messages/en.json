@@ -1,35 +1,12 @@
 {
   "navbar" : {
     "title" : "ECMF",
-    "links" : [
-      {
-        "title" : "Home",
-        "href" : "/"
-      },
-      {
-        "title" : "About",
-        "href" : "/about"
-      },
-      {
-        "title" : "Gallery",
-        "href" : "/gallery"
-      },
-      {
-        "title" : "Contact Us",
-        "href" : "/contact-us"
-      },
-      {
-        "title" : "Products",
-        "href" : "/products"
-      },
-      {
-        "title" : "Services",
-        "href" : "/services"
-      },
-      {
-        "title" : "Terms of Sale",
-        "href" : "/terms-of-sale"
-      }
-    ]
+    "home" : "Home",
+    "about" : "About",
+    "gallery" : "Gallery",
+    "contactUs" : "Contact Us",
+    "products" : "Products",
+    "services" : "Services",
+    "termsOfSale" : "Terms of Sale"
   }
 }

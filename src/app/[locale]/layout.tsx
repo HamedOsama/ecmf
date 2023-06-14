@@ -2,6 +2,7 @@ import { useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 
 import './globals.css'
+import Navbar from '@/components/Navbar';
 
 export const metadata = {
   title: 'ECMF',
@@ -23,7 +24,10 @@ export default function RootLayout({
   }
   return (
     <html lang={locale}>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }

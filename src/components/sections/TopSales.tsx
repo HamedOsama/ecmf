@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar, Navigation } from "swiper";
 
 
-import Title from '@/components/ui/typography/Title';
+import Title from '../UI/typography/Title';
 import ProductCard from '../ProductCard';
 
 import productImage from '@/images/product.png'

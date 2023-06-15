@@ -3,7 +3,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { MoveRight } from 'lucide-react';
 
 import Navbar from '@/components/Navbar';
-import Button from '@/components/ui/Button'
+import Button from '@/components/UI/Button'
 import { cn } from '@/utils/utils';
 import logo from '@/images/logo.png';
 import bg from '@/images/home-bg.png';

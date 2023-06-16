@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { useLocale, useTranslations } from 'next-intl';
+import { NextIntlClientProvider, useLocale, useTranslations } from 'next-intl';
 import { MoveRight } from 'lucide-react';
 
 import Navbar from '@/components/Navbar';
@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
+import Gallery from '@/components/sections/Gallery';
 
 export default function Home() {
   const locale = useLocale();
@@ -80,6 +81,9 @@ export default function Home() {
         productPrice={topSalesProducts('productPrice')}
         productTitle={topSalesProducts('productTitle')}
       />
+      <NextIntlClientProvider locale={locale}>
+        <Gallery />
+      </NextIntlClientProvider>
     </main>
   )
 }

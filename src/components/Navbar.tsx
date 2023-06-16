@@ -25,15 +25,22 @@ const Navbar: FC<NavbarProps> = ({ }) => {
   }))
 
   return <header className='container py-8 mx-auto flex items-center justify-between'>
-    <Link href='/'>
-      <Image
-        src={logo}
-        alt="ECMF"
-        width={147}
-        height={45}
-        className='w-28 h-7 sm:w-36 sm:h-11'
-      />
-    </Link>
+    <div className="">
+      <Link href='/'>
+        <Image
+          src={logo}
+          alt="ECMF"
+          width={147}
+          height={45}
+          className='w-28 h-7 sm:w-36 sm:h-11'
+        />
+      </Link>
+      <Link href={`/${locale === 'ar' ? 'en' : 'ar'}`}>
+        <span className='text-white text-sm font-medium hover:text-gray-400 duration-200 cursor-pointer'>
+          {locale === 'ar' ? 'English' : 'العربية'}
+        </span>
+      </Link>
+    </div>
     {
       navLinks.map(({ href, label }) => (
         <p

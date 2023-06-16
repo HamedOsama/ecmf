@@ -30,7 +30,7 @@ const Gallery: FC<GalleryProps> = ({ }) => {
 
   return <div className='container py-8'>
     <Title variant='default' >
-      Gallery
+      {locale === 'ar' ? 'المعرض' : 'Gallery'}
     </Title>
     <div className="py-4 sm:py-8 w-4/6 mx-auto">
       <Image

@@ -10,7 +10,7 @@ const TitleVariants = cva(
     variants: {
       variant: {
         default: 'text-primary text-start',
-        doubleBorder: '',
+        doubleBorder: 'w-[fit-content] border-r-[3px] border-t-[3px]  border-t-primary border-r-primary px-4 py-2 text-primary text-center relative before:absolute before:w-full before:h-full before:-top-4 before:-right-4 before:border-t-[3px] before:border-r-[3px] before:border-t-primary before:border-r-primary rounded-tr-md before:rounded-tr-md',
       }
     },
     defaultVariants: {

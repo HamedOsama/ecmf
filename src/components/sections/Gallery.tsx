@@ -32,7 +32,7 @@ const Gallery: FC<GalleryProps> = ({ }) => {
     <Title variant='default' >
       {locale === 'ar' ? 'المعرض' : 'Gallery'}
     </Title>
-    <div className="py-4 sm:py-8 w-4/6 mx-auto">
+    <div className="py-4 sm:py-8 w-full sm:w-4/6 mx-auto">
       <Image
         src={currentImage}
         alt="ECMF"
@@ -67,16 +67,16 @@ const Gallery: FC<GalleryProps> = ({ }) => {
       </div>
       <Arrow
         variant='prev'
-        className={cn('arrow-prev absolute -bottom-1 z-10',
-          locale === 'ar' ? 'right-1/4' : 'left-1/4'
+        className={cn('arrow-prev p-2 sm:p-3 absolute bottom-0 sm:-bottom-1 z-10',
+          locale === 'ar' ? 'right-[5%] sm:right-1/4' : 'left-[5%] sm:left-1/4'
         )}
       >
         Prev
       </Arrow>
       <Arrow
         variant='next'
-        className={cn('arrow-next absolute -bottom-1 z-10',
-          locale === 'ar' ? 'left-1/4' : 'right-1/4'
+        className={cn('arrow-next p-2 sm:p-3 absolute bottom-0 sm:-bottom-1 z-10',
+          locale === 'ar' ? 'left-[5%] sm:left-1/4' : 'right-[5%] sm:right-1/4'
         )}
       >next
       </Arrow>

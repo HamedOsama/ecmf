@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import Gallery from '@/components/sections/Gallery';
+import AboutUs from '@/components/sections/AboutUs';
 
 export default function Home() {
   const locale = useLocale();
@@ -84,6 +85,7 @@ export default function Home() {
       <NextIntlClientProvider locale={locale}>
         <Gallery />
       </NextIntlClientProvider>
+      <AboutUs />
     </main>
   )
 }

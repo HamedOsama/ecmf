@@ -10,7 +10,11 @@ const TitleVariants = cva(
     variants: {
       variant: {
         default: 'text-primary text-start',
-        doubleBorder: 'w-[fit-content] border-r-[3px] border-t-[3px]  border-t-primary border-r-primary px-4 py-2 text-primary text-center relative before:absolute before:w-full before:h-full before:-top-4 before:-right-4 before:border-t-[3px] before:border-r-[3px] before:border-t-primary before:border-r-primary rounded-tr-md before:rounded-tr-md',
+        doubleBorder: 'w-[fit-content] border-t-[3px]  border-t-primary px-4 py-2 text-primary text-center relative before:absolute before:w-full before:h-full before:-top-4  before:border-t-[3px] before:border-t-primary',
+      },
+      borderDirection: {
+        left: 'border-l-[3px] border-l-primary before:-left-4 before:border-l-[3px] before:border-l-primary rounded-tl-md before:rounded-tl-md',
+        right: 'border-r-[3px] border-r-primary before:-right-4 before:border-r-[3px] before:border-r-primary rounded-tr-md before:rounded-tr-md',
       }
     },
     defaultVariants: {
@@ -21,9 +25,9 @@ const TitleVariants = cva(
 interface TitleProps extends React.HTMLAttributes<HTMLParagraphElement>, VariantProps<typeof TitleVariants> {
   children: React.ReactNode
 }
-const Title: FC<TitleProps> = ({ children, variant, className, ...rest }) => {
+const Title: FC<TitleProps> = ({ children, variant, borderDirection, className, ...rest }) => {
   return <p
-    className={cn(TitleVariants({ variant, className }))}
+    className={cn(TitleVariants({ variant, className, borderDirection }))}
     {...rest}
   >
     {children}

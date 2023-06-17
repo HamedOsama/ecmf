@@ -32,5 +32,16 @@
     "productTitle" : "مواسير ممتازة",
     "productDescription" : "مواسير مميزة من انتاج ECMF",
     "productPrice" : "2000"
+  },
+  "contactUs" :{
+    "title" : "تواصل معنا",
+    "description" : "ابق على تواصل معنا",
+    "name" : "الاسم",
+    "namePlaceholder" : "حامد اسامه",
+    "email" : "البريد الالكتروني",
+    "emailPlaceholder" : "hamed@trendlix.com",
+    "message" : "التعليق",
+    "messagePlaceholder" : "اكتب ما تريده",
+    "submit" : "ارسال"
   }
 }

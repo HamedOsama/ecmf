@@ -32,5 +32,16 @@
     "productTitle" : "Pipes Metal ECMF",
     "productDescription" : "Premium Steal from ECMF",
     "productPrice" : "2000"
+  },
+  "contactUs" :{
+    "title" : "Contact Us",
+    "description" : "Get in touch with us",
+    "name" : "Name",
+    "namePlaceholder" : "Hamed Osama",
+    "email" : "Email",
+    "emailPlaceholder" : "hamed@trendlix.com",
+    "message" : "Message",
+    "messagePlaceholder" : "Type your query here.....",
+    "submit" : "Send"
   }
 }

@@ -30,7 +30,7 @@ const Gallery: FC<GalleryProps> = ({ }) => {
 
   return <div className='container py-8'>
     <div className="flex items-center justify-center">
-      <Title variant='doubleBorder' >
+      <Title variant='doubleBorder' borderDirection='right' >
         {locale === 'ar' ? 'المعرض' : 'Gallery'}
       </Title>
     </div>

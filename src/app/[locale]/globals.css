@@ -22,6 +22,21 @@
 body {}
 
 
+.text-gradient {
+  background: linear-gradient(93.06deg, #76C5F2 -5.22%, #10214F 169.32%);
+  -webkit-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.border-gradient {
+  border-image: linear-gradient(93.06deg, #76C5F2 -5.22%, #10214F 169.32%) 1;
+}
+.border-gradient:before{
+  border-image: linear-gradient(93.06deg, #76C5F2 -5.22%, #10214F 169.32%) 1;
+}
+
 /* swiper overrides */
 
 .swiper-scrollbar-horizontal {

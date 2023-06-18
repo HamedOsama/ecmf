@@ -16,6 +16,7 @@ import "swiper/css/scrollbar";
 import Gallery from '@/components/sections/Gallery';
 import AboutUs from '@/components/sections/AboutUs';
 import ContactUs from '@/components/sections/ContactUs';
+import Browse from '@/components/sections/Browse';
 
 export default function Home() {
   const locale = useLocale();
@@ -88,6 +89,9 @@ export default function Home() {
       </NextIntlClientProvider>
       <AboutUs />
       <ContactUs />
+      <NextIntlClientProvider locale={locale}>
+        <Browse />
+      </NextIntlClientProvider>
     </main>
   )
 }

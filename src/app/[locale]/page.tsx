@@ -17,6 +17,8 @@ import Gallery from '@/components/sections/Gallery';
 import AboutUs from '@/components/sections/AboutUs';
 import ContactUs from '@/components/sections/ContactUs';
 import Browse from '@/components/sections/Browse';
+import Agents from '@/components/sections/Agents';
+import Footer from '@/components/Footer/Footer';
 
 export default function Home() {
   const locale = useLocale();
@@ -68,7 +70,7 @@ export default function Home() {
                 className='w-full h-auto'
               />
               <div className="flex flex-col items-center justify-center sm:gap-1 mt-4 sm:mt-8">
-                <p className='text-primary uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold'>{t('slogan1')}</p>
+                {/* <p className='text-primary uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold'>{t('slogan1')}</p> */}
                 <p className='customText uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold'>{t('slogan2')}</p>
                 <p className='customText uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold'>{t('slogan3')}</p>
               </div>
@@ -92,6 +94,8 @@ export default function Home() {
       <NextIntlClientProvider locale={locale}>
         <Browse />
       </NextIntlClientProvider>
+      <Agents />
+      <Footer />
     </main>
   )
 }

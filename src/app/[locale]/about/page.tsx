@@ -41,12 +41,11 @@ const page: FC<pageProps> = ({ }) => {
         <div className="sm:w-1/2 sm:mx-8 ">
           <div className="flex items-start">
             <Title variant='doubleBorder' borderDirection='right' className='pl-0'>
-              About Us
+              {t('aboutUs')}
             </Title>
           </div>
           <p className='mt-4 ltr:pl-4 rtl:pl-4 sm:p-0'>
-            ECMF, established in 1994 and located in The first industrial zone Plot 66/4 - Sadat City
-            , is a famous Egyptian professional steel company specialized in producing and trading high quality steel products to worldwide. We are one of the major exporters Cans , Icons , carbon steel, Accessories & Channel Section , other steel products in Middle East.
+            {t('aboutUsDescription')}
           </p>
         </div>
 
@@ -55,11 +54,11 @@ const page: FC<pageProps> = ({ }) => {
         <div className="sm:w-1/2 sm:mx-8">
           <div className="flex items-start">
             <Title variant='doubleBorder' borderDirection='left' className='pr-0'>
-              Our Vision & Mission
+              {t('ourVision')}
             </Title>
           </div>
           <p className='mt-4 ltr:pl-4 rtl:pl-4 sm:p-0'>
-            {parse(`Our vision is to be the leading company in the steel industry in Egypt and the Middle East, and to be the first choice for our customers and suppliers.`)}
+            {parse(t('ourVisionDescription').replaceAll('\n', '<br>'))}
           </p>
         </div>
         <div className="relative flex-1">
@@ -74,7 +73,7 @@ const page: FC<pageProps> = ({ }) => {
       </div>
       <div className="py-8 sm:py-16">
         <Title variant='default' className='text-center'>
-          Why Choose ECMF ?
+          {t('subtitle')}
         </Title>
       </div>
       <div className="container">

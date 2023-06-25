@@ -8,6 +8,7 @@ import { Search } from 'lucide-react';
 import logo from '@/images/logo.png';
 import { navLinks } from '@/utils/nav-links';
 import MobileNavbar from './MobileNavbar';
+import LocaleSwitcher from './LocaleSwitcher';
 
 interface NavbarProps {
 
@@ -35,11 +36,7 @@ const Navbar: FC<NavbarProps> = ({ }) => {
           className='w-28 h-7 sm:w-36 sm:h-11'
         />
       </Link>
-      <Link href={`/${locale === 'ar' ? 'en' : 'ar'}`}>
-        <span className='text-white text-sm font-medium hover:text-gray-400 duration-200 cursor-pointer'>
-          {locale === 'ar' ? 'English' : 'العربية'}
-        </span>
-      </Link>
+      <LocaleSwitcher locale={locale} />
     </div>
     {
       navLinks.map(({ href, label }) => (

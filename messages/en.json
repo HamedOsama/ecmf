@@ -43,5 +43,19 @@
     "message" : "Message",
     "messagePlaceholder" : "Type your query here.....",
     "submit" : "Send"
+  },
+  "aboutUs" : {
+    "aboutUs" : "About Us",
+    "aboutUsDescription" : "ECMF, established in 1994 and located in The first industrial zone Plot 66/4 - Sadat City, is a famous Egyptian professional steel company specialized in producing and trading high quality steel products to worldwide. We are one of the major exporters Cans , Icons , carbon steel, Accessories & Channel Section , other steel products in Middle East.",
+    "ourVision" : "Our Vision & Mission",
+    "ourVisionDescription" : "Our Vision \n We aspire to be the global steel industry benchmark for world's most reliable and innovative steel products manufacturer, service and solution provider in the industry.\n \n Our Mission \n To maximize value for our worldwide client base by supply high quality steel products, providing related services and solutions while utilizing innovative technologies.",
+    "companyIdentification" : "Company Identification",
+    "companyIdentificationDescription" : "The engineering company for metal forming is one of the leading companies in Egypt in forming all kinds of metal sheets. It manufactures metal sheets the latest methods through modern production lines with international standard specifications on European and American methods.",
+    "qualityAssurance" : "Quality Assurance",
+    "qualityAssuranceDescription" : "The engineering company for metal forming is based on quality and continuous improvement , and holds a standardization certificate in 2011. in addition, the company is committed to complying with occupational health and safety and environmental regulations by obtaining a certificate of civil defense and occupational health in 2011.",
+    "qualityControl" : "Quality Control",
+    "qualityControlDescription" : "A very effective quality inspection process in conducted for the system, and the incoming raw materials are inspected for conformity with the certificates of analysis from the origin and the inspection process on the final product ",
+    "objectives" : "Objectives",
+    "objectivesDescription" : "The partner always hopes to obtain complete customer satisfaction, the company has recruited a team of product development and engineering quality outside the boundaries of international standards and developed a quide for customers to examine the quality."
   }
 }

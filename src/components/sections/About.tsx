@@ -11,12 +11,13 @@ interface AboutProps extends React.HTMLAttributes<HTMLDivElement> {
   body: string
   direction?: 'left' | 'right'
   img: any
+  roundedImg?: boolean
 }
 
-const About: FC<AboutProps> = ({ title, titleVariant, body, direction, img ,className}) => {
+const About: FC<AboutProps> = ({ title, titleVariant, body, direction, img, roundedImg, className }) => {
   return <div className={cn(
-    'flex items-center gap-2 sm:gap-8',
-    direction === 'right' ? 'flex-row-reverse' : '',
+    'flex items-center gap-8',
+    direction === 'right' ? 'flex-col sm:flex-row-reverse' : 'flex-col sm:flex-row',
     className
   )}>
     <div className="relative flex-1 col-span-1">
@@ -25,7 +26,10 @@ const About: FC<AboutProps> = ({ title, titleVariant, body, direction, img ,clas
         alt={title}
         width={img.width}
         height={img.height}
-        className='w-full h-auto flex-1'
+        className={cn(
+          'w-full h-auto flex-1',
+          roundedImg ? 'rounded-full' : ''
+        )}
       />
     </div>
     <div className="w-2/3 col-span-2">

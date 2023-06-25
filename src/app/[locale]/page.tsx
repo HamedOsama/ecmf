@@ -9,10 +9,6 @@ import logo from '@/images/logo.png';
 import bg from '@/images/home-bg.png';
 import TopSales from '@/components/sections/TopSales';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/scrollbar";
 import Gallery from '@/components/sections/Gallery';
 import AboutUs from '@/components/sections/AboutUs';
 import ContactUs from '@/components/sections/ContactUs';

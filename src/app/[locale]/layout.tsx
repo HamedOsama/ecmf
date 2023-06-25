@@ -4,6 +4,12 @@ import { notFound } from 'next/navigation';
 import './globals.css'
 import Navbar from '@/components/Navbar';
 
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/scrollbar";
+
 export const metadata = {
   title: 'ECMF',
   description: 'ECMF',

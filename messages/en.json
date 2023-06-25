@@ -1,6 +1,7 @@
 {
   "global" : {
-    "currency" : "EGP"
+    "currency" : "EGP",
+    "agentsFor" : "Agents For"
   },
   "navbar" : {
     "title" : "ECMF",

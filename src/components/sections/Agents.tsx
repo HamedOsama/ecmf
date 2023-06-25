@@ -7,15 +7,17 @@ import agent3 from '../../images/agent3.png'
 import agent4 from '../../images/agent4.png'
 import agent5 from '../../images/agent5.png'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 interface AgentsProps {
 
 }
 
 const Agents: FC<AgentsProps> = ({ }) => {
+  const t = useTranslations('global')
   return <section className='container py-8 sm:py-16'>
     <Title variant='default' className='w-full text-center'>
-      Agents For
+      {t('agentsFor')}
     </Title>
     <div className="flex items-center justify-center gap-4 sm:gap-8">
       <div className="relative flex-1 w-full h-full">

@@ -1,6 +1,7 @@
 {
   "global" : {
-    "currency" : "جنيه"
+    "currency" : "جنيه",
+    "agentsFor" : "وكلاء لدى"
   },
   "navbar" : {
     "title" : "ECMF",

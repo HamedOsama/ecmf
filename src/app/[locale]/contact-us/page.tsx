@@ -24,11 +24,7 @@ const page: FC<pageProps> = ({ }) => {
           {t('title')}
         </Title>
       </div>
-
-
       <Form />
-      
-
     </main>
     <NextIntlClientProvider locale={locale}>
       <div className="relative">

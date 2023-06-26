@@ -12,7 +12,11 @@ const LocaleSwitcher: FC<LocaleSwitcherProps> = ({ locale }) => {
   const pathname = usePathname();
 
   return <p
-    onClick={() => router.replace(`/${locale === 'ar' ? 'en' : 'ar'}${pathname}`)}
+    onClick={() => {
+      const splited = pathname.split('/')
+      const newPathname = splited.filter((item: string) => item !== locale)
+      router.replace(`/${locale === 'ar' ? 'en' : 'ar'}${newPathname.join('/')}`)
+    }}
   >
     <span className='text-white text-sm font-medium hover:text-gray-400 duration-200 cursor-pointer'>
       {locale === 'ar' ? 'English' : 'العربية'}

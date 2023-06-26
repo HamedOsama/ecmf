@@ -46,3 +46,7 @@ body {}
 .swiper-scrollbar-drag {
   background: #1F96D3 !important;
 }
+.swiper-button-disabled{
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+}

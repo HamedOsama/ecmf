@@ -59,5 +59,8 @@
     "qualityControlDescription" : "A very effective quality inspection process in conducted for the system, and the incoming raw materials are inspected for conformity with the certificates of analysis from the origin and the inspection process on the final product ",
     "objectives" : "Objectives",
     "objectivesDescription" : "The partner always hopes to obtain complete customer satisfaction, the company has recruited a team of product development and engineering quality outside the boundaries of international standards and developed a quide for customers to examine the quality."
+  },
+  "gallery" : {
+    "title" : "Gallery"
   }
 }

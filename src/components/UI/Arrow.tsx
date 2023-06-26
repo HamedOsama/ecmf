@@ -8,7 +8,7 @@ import { useLocale } from 'next-intl';
 interface ArrowProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant: 'next' | 'prev'
 }
-
+// forward ref
 const Arrow: FC<ArrowProps> = ({ className, ...rest }) => {
   const locale = useLocale();
   // const locale = 'en'

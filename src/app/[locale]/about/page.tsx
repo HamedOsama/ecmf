@@ -104,15 +104,6 @@ const page: FC<pageProps> = ({ }) => {
           roundedImg={true}
           direction='right'
         />
-        <About
-          className='mt-8'
-          title={t('objectives')}
-          titleVariant='doubleBorder'
-          body={t('objectivesDescription').replaceAll('\n', '<br>')}
-          img={objectivesImg}
-          roundedImg={true}
-          direction='left'
-        />
       </div>
     </main>
     <NextIntlClientProvider locale={locale}>

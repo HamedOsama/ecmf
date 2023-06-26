@@ -24,9 +24,9 @@
   },
   "about":{
     "aboutUs" : "About Us",
-    "aboutUsDescription" : "ECMF, established in 1994 and located in The first industrial zone Plot 66/4 - Sadat City, is a famous Egyptian professional steel company specialized in producing and trading high quality steel products to worldwide. We are one of the major exporters Cans , Icons , carbon steel, Accessories & Channel Section , other steel products in Middle East.",
+    "aboutUsDescription" : "The Engineering Company for Metal Forming is a leading institution in Egypt that specializes in shaping a wide range of metal sheets. We pride ourselves on using cutting-edge production lines to ensure the highest quality results. Our products not only meet, but also exceed international standard specifications (including European and American), making us a trusted and reliable choice for customers who are seeking top-quality solutions.",
     "ourVision" : "Our Vision & Mission",
-    "ourVisionDescription" : "Our Vision \n We aspire to be the global steel industry benchmark for world's most reliable and innovative steel products manufacturer, service and solution provider in the industry.\n \n Our Mission \n To maximize value for our worldwide client base by supply high quality steel products, providing related services and solutions while utilizing innovative technologies."
+    "ourVisionDescription" : "Our Vision \n We aspire to be the global benchmark for the metalworking industry in the MENA region and then worldwide.\n \n Our Mission \n To achieve maximum value for our customer base by providing high-quality metal products and related services and solutions using innovative technologies."
   },
   "topSales":{
     "title" : "Top Sales Products",
@@ -46,17 +46,17 @@
     "submit" : "Send"
   },
   "aboutUs" : {
-    "subtitle" : "Why Choose ECMF ?",
+    "subtitle" : "Why ECMF ?",
     "aboutUs" : "About Us",
-    "aboutUsDescription" : "ECMF, established in 1994 and located in The first industrial zone Plot 66/4 - Sadat City, is a famous Egyptian professional steel company specialized in producing and trading high quality steel products to worldwide. We are one of the major exporters Cans , Icons , carbon steel, Accessories & Channel Section , other steel products in Middle East.",
+    "aboutUsDescription" : "The Engineering Company for Metal Forming is a leading institution in Egypt that specializes in shaping a wide range of metal sheets. We pride ourselves on using cutting-edge production lines to ensure the highest quality results. Our products not only meet, but also exceed international standard specifications (including European and American), making us a trusted and reliable choice for customers who are seeking top-quality solutions.",
     "ourVision" : "Our Vision & Mission",
-    "ourVisionDescription" : "Our Vision \n We aspire to be the global steel industry benchmark for world's most reliable and innovative steel products manufacturer, service and solution provider in the industry.\n \n Our Mission \n To maximize value for our worldwide client base by supply high quality steel products, providing related services and solutions while utilizing innovative technologies.",
-    "companyIdentification" : "Company Identification",
-    "companyIdentificationDescription" : "The engineering company for metal forming is one of the leading companies in Egypt in forming all kinds of metal sheets. It manufactures metal sheets the latest methods through modern production lines with international standard specifications on European and American methods.",
+    "ourVisionDescription" : "Our Vision \n We aspire to be the global benchmark for the metalworking industry in the MENA region and then worldwide.\n \n Our Mission \n To achieve maximum value for our customer base by providing high-quality metal products and related services and solutions using innovative technologies.",
+    "companyIdentification" : "Your first Choice:",
+    "companyIdentificationDescription" : "As customer satisfaction is our goal, we are distinguished by having a product development team \n The company's board of directors oversees the total quality management projects and always motivates them on innovative ideas and their development for the benefit of the company and customer service",
     "qualityAssurance" : "Quality Assurance",
-    "qualityAssuranceDescription" : "The engineering company for metal forming is based on quality and continuous improvement , and holds a standardization certificate in 2011. in addition, the company is committed to complying with occupational health and safety and environmental regulations by obtaining a certificate of civil defense and occupational health in 2011.",
+    "qualityAssuranceDescription" : "The company has proven its strong focus on quality and continuous improvement. So, we are proud to have received the certificate of standardization, which was awarded to us in 2011. \n We have also obtained the certificate of Civil Defense and occupational health 2011 for our commitment to public safety, health and Environmental Protection",
     "qualityControl" : "Quality Control",
-    "qualityControlDescription" : "A very effective quality inspection process in conducted for the system, and the incoming raw materials are inspected for conformity with the certificates of analysis from the origin and the inspection process on the final product ",
+    "qualityControlDescription" : "A very effective quality inspection of the system is carried out and the incoming raw materials are inspected for conformity with the certificates of analysis from the origin and the inspection of the finished product is carried out by a team of qualified personnel to comply with international standards: \n EN10051 ، EN10131 ، EN10130 ، EN10111 EN10143 ، EN10142 ، EN10025, EN10169. \n Chemical and mechanical tests are carried out in laboratories to ensure the availability of evaluation in terms of tests as required and calibration of quality measuring devices in the facilities, so we carefully select the best supplier’s logo board members.",
     "objectives" : "Objectives",
     "objectivesDescription" : "The partner always hopes to obtain complete customer satisfaction, the company has recruited a team of product development and engineering quality outside the boundaries of international standards and developed a quide for customers to examine the quality."
   },

@@ -40,7 +40,7 @@ export const lines = [
       en: ['Air ducts and air conditioners', 'Door accessories'],
       ar: ['قنوات الهواء والمكيفات', 'ملحقات الأبواب']
     }
-  },{
+  }, {
     title: {
       en: 'test Line',
       ar: 'تجربة'
@@ -71,15 +71,15 @@ export const lines = [
     },
     products: {
       en: ['Pipes and Cans', 'Rectangular Cans', 'Channels and Angle Bar'],
-      ar: ['أنابيب وعلب', 'علب مستطيلة', 'قنوات وزوايا']
+      ar: ['المواسير والعلب', 'والعلب المستطيلة', 'الكمر والزويه']
     },
     usedInTitle: {
       en: 'Used in:',
       ar: 'يستخدم في:'
     },
     usedIn: {
-      en: ['Air ducts and air conditioners', 'Door accessories'],
-      ar: ['قنوات الهواء والمكيفات', 'ملحقات الأبواب']
+      en: ['Air ducts and air conditioners', 'Door accessories', 'Armored doors', 'Home appliances', 'Metal furniture', 'Metal structures', 'Advertising and advertising chassis', 'Power systems', 'Electrical panels', 'Metalworking'],
+      ar: ['قنوات الهواء والمكيفات', 'ملحقات الأبواب', 'أبواب مصفحة', 'الأجهزة المنزلية', 'الأثاث المعدني', 'الهياكل المعدنية', 'شاسيهات الدعاية والإعلان', 'أنظمة الطاقة', 'اللوحات الكهربائية', 'تشغيل المعادن']
     }
   }
 ]

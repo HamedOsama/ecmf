@@ -67,8 +67,8 @@ export default function Home() {
               />
               <div className="flex flex-col items-center justify-center sm:gap-1 mt-4 sm:mt-8">
                 {/* <p className='text-primary uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold'>{t('slogan1')}</p> */}
-                <p className='customText uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold'>{t('slogan2')}</p>
-                <p className='customText uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold'>{t('slogan3')}</p>
+                <p className='customText uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold animate-text-one'>{t('slogan2')}</p>
+                <p className='customText uppercase text-center text-4xl md:text-4xl xl:text-5xl font-bold animate-text-two'>{t('slogan3')}</p>
               </div>
 
             </div>

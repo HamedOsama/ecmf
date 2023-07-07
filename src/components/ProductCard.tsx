@@ -26,7 +26,6 @@ const ProductCard: FC<ProductCardProps> = ({ title, description, image, price, c
     <div className="flex flex-col gap-1 mt-1">
       <p className='text-black text-base sm:text-2xl font-bold'>{title}</p>
       <p className='text-black text-sm sm:text-lg'>{description}</p>
-      <p className='text-black text-lg sm:text-2xl font-bold'>{price} {currency}</p>
     </div>
   </div >
 }

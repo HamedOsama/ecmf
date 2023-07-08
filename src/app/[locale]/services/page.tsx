@@ -12,19 +12,27 @@ import Services from './Services'
 import Browse from '@/components/sections/Browse'
 import Agents from '@/components/sections/Agents'
 import Footer from '@/components/Footer/Footer'
+import { notFound } from 'next/navigation'
 
 
 interface pageProps {
 
 }
 
-const page: FC<pageProps> = ({ }) => {
+const page: FC<pageProps> = async({ }) => {
   const locale = useLocale()
   // const messages = (await import(`../../../../messages/${locale}.json`));
-  const allLines = lines.map(el => el.title)
-  const t = useTranslations('contactUs')
+  // const allLines = lines.map(el => el.title)
+  // const t = useTranslations('contactUs')
+  let messages;
+  try {
+    messages = (await import(`../../../../messages/${locale}.json`));
+    console.log(messages)
+  } catch (error) {
+    console.log(error)
+  }
   return <div className="">
-    <NextIntlClientProvider locale={locale} >
+    <NextIntlClientProvider locale={locale} messages={messages}  >
       <Services />
     </NextIntlClientProvider>
     <NextIntlClientProvider locale={locale}>

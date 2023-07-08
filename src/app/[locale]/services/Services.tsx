@@ -39,7 +39,6 @@ const Services: FC<ServicesProps> = ({ }) => {
 
   const locale = useLocale()
   const t = useTranslations('contactUs')
-
   return <div>
     <div className="h-screen relative">
       <div className="absolute inset-0 ">

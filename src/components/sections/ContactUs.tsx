@@ -59,13 +59,22 @@ const ContactUs: FC<ContactUsProps> = ({ }) => {
           </div>
 
         </div>
-        <Image
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.217877707041!2d31.051544199999995!3d30.059288599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14585b3d46b69aed%3A0xf966cc85fdd4cb55!2z2KfZhNi02LHZg9ipINin2YTZh9mG2K_Ys9mK2Kkg2YTYqti02YPZitmEINin2YTZhdi52KfYr9mG!5e0!3m2!1sar!2seg!4v1688778809107!5m2!1sar!2seg"
+          allowFullScreen={true}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className='rounded-md w-full sm:w-2/3 lg:1/2 mx-auto'
+        >
+
+        </iframe>
+        {/* <Image
           src={mapImg}
           alt='Map'
           width={mapImg.width}
           height={mapImg.height}
           className='rounded-md w-full sm:w-2/3 lg:1/2 mx-auto'
-        />
+        /> */}
       </div>
     </div>
   </div>

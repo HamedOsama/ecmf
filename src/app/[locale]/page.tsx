@@ -87,9 +87,9 @@ export default function Home() {
       </NextIntlClientProvider>
       <AboutUs />
       <ContactUs />
-      <NextIntlClientProvider locale={locale}>
+      {/* <NextIntlClientProvider locale={locale}>
         <Browse />
-      </NextIntlClientProvider>
+      </NextIntlClientProvider> */}
       <Agents />
       <Footer />
     </main>

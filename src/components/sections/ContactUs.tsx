@@ -64,7 +64,7 @@ const ContactUs: FC<ContactUsProps> = ({ }) => {
           allowFullScreen={true}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className='rounded-md w-full sm:w-2/3 lg:1/2 mx-auto'
+          className='rounded-md w-full sm:w-2/3 mx-auto h-64 sm:h-1/2'
         >
 
         </iframe>

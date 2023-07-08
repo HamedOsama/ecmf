@@ -29,7 +29,6 @@ const page: FC<pageProps> = async({ }) => {
     messages = (await import(`../../../../messages/${locale}.json`));
     console.log(messages)
   } catch (error) {
-    console.log(error)
   }
   return <div className="">
     <NextIntlClientProvider locale={locale} messages={messages}  >

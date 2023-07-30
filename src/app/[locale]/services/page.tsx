@@ -1,13 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { NextIntlClientProvider, useLocale, useTranslations } from 'next-intl'
-import Image from 'next/image'
 import { FC } from 'react'
 
-import contactUsBg from '@/images/contact-us-bg.png'
-import Navbar from '@/components/Navbar'
-import { lines } from '@/data/lines'
-import Title from '@/components/UI/typography/Title'
-import Button from '@/components/UI/Button'
 import Services from './Services'
 import Browse from '@/components/sections/Browse'
 import Agents from '@/components/sections/Agents'
@@ -21,13 +15,9 @@ interface pageProps {
 
 const page: FC<pageProps> = async({ }) => {
   const locale = useLocale()
-  // const messages = (await import(`../../../../messages/${locale}.json`));
-  // const allLines = lines.map(el => el.title)
-  // const t = useTranslations('contactUs')
   let messages;
   try {
     messages = (await import(`../../../../messages/${locale}.json`));
-    console.log(messages)
   } catch (error) {
   }
   return <div className="">

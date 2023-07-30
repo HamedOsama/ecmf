@@ -12,7 +12,7 @@ interface ProductCardProps extends React.HTMLAttributes<HTMLDivElement> {
 
 const ProductCard: FC<ProductCardProps> = ({ title, description, image, price, currency, className }) => {
   return <div className={cn(
-    'px-4 pb-4 sm:px-8 sm:pb-8 rounded-md bg-[#DDDDDD] hover:bg-[#1F96D32E] duration-300 cursor-pointer',
+    'pb-4 sm:pb-8 rounded-2xl bg-[#DDDDDD] hover:bg-[#1F96D32E] duration-300 cursor-pointer',
     className
   )}
   >
@@ -21,9 +21,9 @@ const ProductCard: FC<ProductCardProps> = ({ title, description, image, price, c
       alt={title}
       width={image.width}
       height={image.height}
-      className='w-full h-auto rounded-md'
+      className='w-full h-auto rounded-2xl'
     />
-    <div className="flex flex-col gap-1 mt-1">
+    <div className="flex flex-col gap-1 mt-1 px-4 sm:px-8">
       <p className='text-black text-base sm:text-2xl font-bold'>{title}</p>
       <p className='text-black text-sm sm:text-lg'>{description}</p>
     </div>
